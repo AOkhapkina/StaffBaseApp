@@ -4,7 +4,7 @@
 <html lang="en">
 <html>
 <head>
-    <title>Details entering</title>
+    <title></title>
 </head>
 <body>
 <h2>Dear Employee, please enter your details</h2>

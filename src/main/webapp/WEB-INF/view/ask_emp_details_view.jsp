@@ -22,10 +22,10 @@
     Salary <form:input path="salary" placeholder="Salary"/>
     <form:errors path="salary"/>
     <br><br>
-    Phone number <form:input path="phoneNumber" placeholder="x-xxx-xxx-xx-xx" />
+    Phone number <form:input path="phoneNumber" placeholder="x-xxx-xxx-xx-xx"/>
     <form:errors path="phoneNumber"/>
     <br><br>
-    Phone number <form:input path="email" placeholder="email" />
+    Phone number <form:input path="email" placeholder="email"/>
     <form:errors path="email"/>
     <br><br>
     Department <form:select path="department" placeholder="Department">
@@ -48,9 +48,9 @@
     Foreign Language(s):
     <form:checkboxes path="languages" items="${employee.languageList}"/>
     <%--    hard code, переносим из jsp в java --%>
-<%--    EN <form:checkbox path="languages" value="English"/>--%>
-<%--    DE <form:checkbox path="languages" value="Deutsch"/>--%>
-<%--    FR <form:checkbox path="languages" value="French"/>--%>
+    <%--    EN <form:checkbox path="languages" value="English"/>--%>
+    <%--    DE <form:checkbox path="languages" value="Deutsch"/>--%>
+    <%--    FR <form:checkbox path="languages" value="French"/>--%>
 
     <input type="submit" value="Ok">
 </form:form>

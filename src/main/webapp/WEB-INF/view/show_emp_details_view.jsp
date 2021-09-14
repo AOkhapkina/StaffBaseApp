@@ -24,7 +24,7 @@ Your language(s):
 <ul>
     <c:forEach var="lang" items="${employee.languages}">
         <li>
-            ${lang}
+                ${lang}
         </li>
     </c:forEach>
 </ul>

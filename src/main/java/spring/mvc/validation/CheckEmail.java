@@ -11,10 +11,13 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = CheckEmailValidator.class)
 public @interface CheckEmail {
+
     public String value() default "xxxx.com";
+
     public String message() default "email's ending must be xxxx.com";
 
-    public Class <?>[] groups()default {};
-    public Class<?extends Payload>[] payload() default {};
+    public Class<?>[] groups() default {};
+
+    public Class<? extends Payload>[] payload() default {};
 
 }
