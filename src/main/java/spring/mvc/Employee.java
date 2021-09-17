@@ -36,8 +36,8 @@ public class Employee {
 
     public Employee() {
         departments = new HashMap<>();
-        departments.put("IT", "Information Technology");
-        departments.put("HR", "Human Resources");
+        departments.put("Information Technology","IT");
+        departments.put("Human Resources","HR");
         departments.put("Sales", "Sales");
 
         carBrands = new HashMap<>();

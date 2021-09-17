@@ -28,7 +28,7 @@
     Phone number <form:input path="email" placeholder="email"/>
     <form:errors path="email"/>
     <br><br>
-    Department <form:select path="department" placeholder="Department">
+    Department <form:select path="department">
     <form:options items="${employee.departments}"/>
     <%--    hard code, переносим из jsp в java --%>
     <%--    <form:option value="Information Technology" label="IT"/>--%>

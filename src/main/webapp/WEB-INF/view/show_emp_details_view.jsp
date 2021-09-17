@@ -1,12 +1,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <html>
 
 <body>
-<h2>Dear Employee, you are WELCOME!</h2>
+<h2>Dear Employee, you are welcome!</h2>
 <br>
 <br>
 <br>
